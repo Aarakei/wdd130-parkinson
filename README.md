@@ -1,2 +1,8 @@
 # wdd130-parkinson
-creating a fictional site for the client
+creating a corgi site
+
+Title page: Jayden Anderson
+
+Picture wall: Zachary Hunter
+
+Events: Jaydyn Chacon
