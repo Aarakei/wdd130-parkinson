@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/title.css">
+    <link rel="stylesheet" href="styles/picture_wall.css">
 </head>
 <body>
     <header>
@@ -16,11 +16,28 @@
         <a href="picture_wall.html">Picture Wall</a>
         <a href="events.html">Events</a>
     </nav>
-    <div id="main">
-        <img id="corgi" src="images/corgi-dog.png" alt="This is supposed to be a picture of a Corgi.">
-        <img id="corgi" src="images/p3.jpg" alt="This is supposed to be a picture of a Corgi.">
-        <img id="corgi" src="images/p1.jpg" alt="This is supposed to be a picture of a Corgi.">
+    
+     <div id="main">
+        <img class="corgi img1" src="images/corgi-dog.png" alt="">
+        <img class="corgi img2" src="images/p3.jpg" alt="">
+        <img class="corgi img3" src="images/p1.jpg" alt="">
+        <img class="corgi img4" src="images/corgi_running.png" alt="">
     </div>
-    <img id="corgi" src="images/corgi_running.png" alt="This is supposed to be a picture of a Corgi.">
+     
+    <div id="raffle">
+        <h2>Enter Your Corgi!</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="corgi_name">Corgi Name:</label>
+            <input type="text" id="corgi_name" name="corgi_name"><br><br>
+
+            <input type="submit" value="Enter Raffle">
+        </form>
+    </div>
 </body>
 </html>
