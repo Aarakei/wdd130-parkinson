@@ -123,3 +123,18 @@ p {
 #raffle form input[type="submit"]:hover {
     background-color: #8B4513;
 }
+
+.corgipic {
+    display: block;
+    width: 400px;
+    margin: 50px auto;
+    border: black solid 4px;
+}
+
+#images {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+width: 80%;
+margin: 0 auto;
+}
