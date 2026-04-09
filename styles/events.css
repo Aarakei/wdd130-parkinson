@@ -1,0 +1,125 @@
+/* Body with black and white background */
+body {
+    background: linear-gradient(0deg, #000000, #F6EFDC); /* black to white */
+}
+
+/* Header & nav remain mostly same */
+header {
+    display: flex;
+    height: 150px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#logo {
+    height: 150px;
+    margin-right: 50px;
+    border: black solid 4px;
+}
+
+h1 {
+    display: block;
+    height: 150px;
+    align-content: center;
+    margin: 0;
+    font-size: 4em;
+}
+
+nav {
+    display: flex;
+    height: 150px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav a {
+    display: block;
+    height: 100px;
+    width: 300px;
+    border: black solid 4px;
+    text-align: center;
+    background-color: #F6EFDC;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+
+/* Box for Corgi Images */
+#main {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    height: 300px; /* match box-of-facts size */
+    margin: 40px auto;
+    border: 4px solid black;
+    background-color: #F6EFDC;
+    overflow: hidden;
+}
+
+/* Collage images */
+.corgi {
+    position: absolute;
+    width: 220px;
+    border: 4px solid black;
+    background-color: white;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.3);
+}
+
+/* Individual image positions */
+.img1 { top: 10px; left: 20px; transform: rotate(-10deg); z-index: 1; }
+.img2 { top: 100px; left: 150px; transform: rotate(8deg); z-index: 2; }
+.img3 { top: 40px; left: 300px; transform: rotate(-5deg); z-index: 3; }
+.img4 { top: 150px; left: 400px; transform: rotate(12deg); z-index: 4; }
+
+/* Raffle box at bottom, half the size of #main */
+#raffle {
+    width: 40%; 
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px solid black;
+    background-color: #F6EFDC;
+    box-sizing: border-box;
+}
+
+#raffle h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#raffle form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#raffle form input[type="text"],
+#raffle form input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#raffle form input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #A0522D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#raffle form input[type="submit"]:hover {
+    background-color: #8B4513;
+}
